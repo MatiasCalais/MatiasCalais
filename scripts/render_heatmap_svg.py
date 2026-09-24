@@ -28,7 +28,7 @@ MARGIN_LEFT = 30
 MARGIN_TOP = 20
 LEGEND_H = 30
 FOOTER_H = 26
-STAGGER = 0.010  # por célula, na diagonal (col + row)
+STAGGER = 0.015  # por célula, na diagonal (col + row)
 
 def load_data() -> dict:
     with open(INPUT_JSON, encoding="utf-8") as f:
@@ -69,7 +69,7 @@ def build_svg(data: dict) -> str:
             color = PALETTE[min(level, len(PALETTE) - 1)]
             x = MARGIN_LEFT + week * (CELL + GAP)
             y0 = MARGIN_TOP + dow * (CELL + GAP)
-            delay = (week + dow) * STAGGER
+            delay = (week * ROWS + dow) * STAGGER
             date_label = record["date"] if record else ""
             count_label = record["count"] if record else 0
 
