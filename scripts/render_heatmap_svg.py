@@ -28,7 +28,7 @@ MARGIN_LEFT = 30
 MARGIN_TOP = 20
 LEGEND_H = 30
 FOOTER_H = 26
-STAGGER = 0.035  # por célula, na diagonal (col + row)
+STAGGER = 0.010  # por célula, na diagonal (col + row)
 
 def load_data() -> dict:
     with open(INPUT_JSON, encoding="utf-8") as f:
@@ -78,9 +78,9 @@ def build_svg(data: dict) -> str:
           fill="{color}" opacity="0" class="cell">
       <title>{date_label}: {count_label} contribuições</title>
       <animate attributeName="opacity" from="0" to="1"
-               begin="{delay:.3f}s" dur="0.25s" fill="freeze"/>
+               begin="{delay:.3f}s" dur="0.4s" fill="freeze"/>
       <animate attributeName="y" from="{y0 - 18}" to="{y0}"
-               begin="{delay:.3f}s" dur="0.25s" fill="freeze" calcMode="spline"
+               begin="{delay:.3f}s" dur="0.4s" fill="freeze" calcMode="spline"
                keySplines="0.2 0.8 0.2 1"/>
     </rect>''')
 
