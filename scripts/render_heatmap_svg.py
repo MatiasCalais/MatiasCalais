@@ -78,9 +78,9 @@ def build_svg(data: dict) -> str:
           fill="{color}" opacity="0" class="cell">
       <title>{date_label}: {count_label} contribuições</title>
       <animate attributeName="opacity" from="0" to="1"
-               begin="{delay:.3f}s" dur="0.15s" fill="freeze"/>
+               begin="{delay:.3f}s" dur="0.40s" fill="freeze"/>
       <animate attributeName="y" from="{y0 - 18}" to="{y0}"
-               begin="{delay:.3f}s" dur="0.15s" fill="freeze" calcMode="spline"
+               begin="{delay:.3f}s" dur="0.40s" fill="freeze" calcMode="spline"
                keySplines="0.2 0.8 0.2 1"/>
     </rect>''')
 
