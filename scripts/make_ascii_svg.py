@@ -26,9 +26,8 @@ CHAR_W = 6.0
 CHAR_H = 11.0
 FILL_COLOR = "#c9d1d9"  # cinza claro, monocromático
 FONT_SIZE = 11
-ROW_STAGGER = 0.035  # segundos entre o início de cada linha
-ROW_DURATION = 0.5   # duração da digitação de uma linha
-
+ROW_STAGGER = 0.09   # segundos entre o início de cada linha
+ROW_DURATION = 0.8   # duração da digitação de uma linha
 
 def image_to_ascii_grid(path: str, cols: int, rows: int) -> list[str]:
     img = Image.open(path).convert("L").resize((cols, rows))

@@ -28,8 +28,7 @@ MARGIN_LEFT = 30
 MARGIN_TOP = 20
 LEGEND_H = 30
 FOOTER_H = 26
-STAGGER = 0.012  # por célula, na diagonal (col + row)
-
+STAGGER = 0.035  # por célula, na diagonal (col + row)
 
 def load_data() -> dict:
     with open(INPUT_JSON, encoding="utf-8") as f:
