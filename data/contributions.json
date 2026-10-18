@@ -2,41 +2,6 @@
   "username": "MatiasCalais",
   "days": [
     {
-      "date": "2025-10-12",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-13",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-14",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-15",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-16",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-17",
-      "level": 0,
-      "count": 0
-    },
-    {
-      "date": "2025-10-18",
-      "level": 0,
-      "count": 0
-    },
-    {
       "date": "2025-10-19",
       "level": 0,
       "count": 0
@@ -1853,14 +1818,19 @@
     },
     {
       "date": "2026-10-17",
+      "level": 1,
+      "count": 1
+    },
+    {
+      "date": "2026-10-18",
       "level": 0,
       "count": 0
     }
   ],
   "stats": {
-    "total_last_year": 70,
+    "total_last_year": 71,
     "current_streak": 0,
-    "longest_streak": 24,
+    "longest_streak": 25,
     "best_day": {
       "date": "2026-02-19",
       "level": 4,
@@ -1879,8 +1849,8 @@
       "2026-07": 0,
       "2026-08": 2,
       "2026-09": 24,
-      "2026-10": 18
+      "2026-10": 19
     },
-    "fetched_at": "2026-10-17T10:38:25.863685Z"
+    "fetched_at": "2026-10-18T10:59:55.277370Z"
   }
 }
